@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="x5-orientation" content="portrait">
+<meta name="x5-fullscreen" content="true">
+<meta name="x5-page-mode" content="app">
+<title>军事动态2026-04-08</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{width:100%;height:100%;overflow-x:hidden}
+body{background:#0f172a;color:#e2e8f0;font-family:-apple-system,Microsoft YaHei,sans-serif}
+.w{max-width:100%;margin:0 auto;padding:12px}
+.hd{text-align:center;padding:12px 0 6px;border-bottom:1px solid #1e293b}
+.tt{font-size:18px;font-weight:700;color:#3b82f6}
+.dt{font-size:12px;color:#94a3b8;margin-top:2px}
+
+/* 悬浮视频播放器 */
+.vw{position:sticky;top:0;z-index:100;background:#000;width:100%;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.6);margin-bottom:10px;transition:all 0.3s ease}
+.vw video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#000}
+
+/* 加载动画 */
+.ld{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:40px;height:40px;border:3px solid rgba(59,130,246,0.3);border-top-color:#3b82f6;border-radius:50%;animation:spin 0.8s linear infinite;display:none;z-index:5}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.ld.on{display:block}
+
+/* 播放按钮 */
+.play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:rgba(59,130,246,0.8);display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10;pointer-events:auto;transition:all 0.2s}
+.play svg{width:26px;height:26px;fill:#fff;margin-left:3px}
+
+/* 迷你模式 */
+.vw.mini{border-radius:8px;margin:0 8px;width:calc(100% - 16px)}
+.vw.mini video{aspect-ratio:16/9;border-radius:8px}
+.vw.mini .play{width:36px;height:36px}
+.vw.mini .play svg{width:16px;height:16px}
+
+/* 新闻列表 */
+.s{background:#1e293b;border-radius:10px;padding:12px 14px;margin-bottom:8px;border-left:4px solid #3b82f6}
+.t{display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600;background:#dc2626;color:#fff;margin-bottom:4px}
+.h{font-size:15px;font-weight:600;color:#fff;margin-bottom:4px;line-height:1.4}
+.c{font-size:13px;color:#94a3b8;line-height:1.6}
+.ft{text-align:center;padding:12px 0;color:#475569;font-size:11px;border-top:1px solid #1e293b;margin-top:12px}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="hd"><div class="tt">全球军事动态</div><div class="dt">2026-04-08</div></div>
+<div class="vw" id="vp">
+<video id="v" playsinline webkit-playsinline x5-video-player-type="h5" x5-video-player-fullscreen="true" x5-orientation="portraint" preload="metadata" controls poster="poster.webp">
+<source src="military_news_final.mp4" type="video/mp4">
+</video>
+<div class="ld" id="ld"></div>
+<div class="play" id="p" onclick="play()">
+<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+</div>
+</div>
+<div class="s"><span class="t">俄乌前线</span><div class="h">泽连斯基：愿意与普京面谈 为了和平愿做任何事情</div><div class="c">泽连斯基：愿意与普京面谈 为了和平愿做任何事情<br>据央视新闻，俄罗斯国防部5日通报称，过去一天，俄军对148个区域的乌克兰武装<br>部队使用的军用机场、能源和燃料基础设施、固定翼无人机组装车间及乌克兰武装部队<br>和外国雇佣兵的临时部署地点实施了打击。</div></div><div class="s"><span class="t">武装冲突</span><div class="h">特朗普暗示谈判如有进展 或改变打击伊朗决定</div><div class="c">特朗普暗示谈判如有进展 或改变打击伊朗决定<br>两名巴基斯坦消息人士7日表示，美国与伊朗之间的谈判斡旋仍在继续，<br>由巴基斯坦作为主要中间人传递双方提案，但目前尚未出现实质性妥协。<br>消息人士称，伊朗近期对沙特与美国企业相关的工业设施发动袭击，可能严重影响谈判进展。</div></div><div class="s"><span class="t">军事动态</span><div class="h">美经济学家：所谓对伊开战有利美国经济十分荒谬</div><div class="c">美经济学家：所谓对伊开战有利美国经济十分荒谬<br>多位经济学家对美国政府近日提出的“一旦伊朗战事结束，<br>美国经济将迅速复苏”这一说法表示异议。专家认为，战事给美国经济带来的损害将长时间存在，<br>价格上涨可能持续数年。</div></div><div class="s"><span class="t">导弹武器</span><div class="h">伊朗：袭击以色列北部导弹未遭拦截 以方放弃北部城市</div><div class="c">伊朗：袭击以色列北部导弹未遭拦截 以方放弃北部城市<br>伊朗伊斯兰革命卫队航空航天部队司令马吉德·穆萨维当地时间4月6日晚通过社交媒体表示，<br>在过去24小时，以色列北部城市海法的炼油厂、电力设施、港口和铁路等被伊朗导弹轰炸，<br>没有导弹被拦截的消息。</div></div><div class="s"><span class="t">军种动态</span><div class="h">特朗普炒掉司法部长 美陆军参谋长也被要求立即辞职</div><div class="c">特朗普炒掉司法部长 美陆军参谋长也被要求立即辞职<br>据新华社，美国总统特朗普2日宣布，帕姆·邦迪将不再担任司法部长一职。<br>邦迪成为特朗普第二个总统任期内第二名被解职的内阁成员。<br>特朗普当天在社交媒体发帖说，邦迪将转任私营部门工作，具体日期将在近期公布，<br>司法部副部长托德·布兰奇将代理司法部长一职。</div></div><div class="s"><span class="t">武器装备</span><div class="h">伊朗自杀无人机突进 逼退林肯号航母</div><div class="c">伊朗自杀无人机突进 逼退林肯号航母<br>伊朗伊斯兰革命卫队4月1日发表声明称，其海军已对多个目标实施打击，<br>霍尔木兹海峡局势处于其“完全掌控”之下。声明反驳了美以方面关于伊朗打击强度下降的说法。</div></div><div class="s"><span class="t">中东局势</span><div class="h">伊朗代表：中俄坚定站在历史正确的一边</div><div class="c">伊朗代表：中俄坚定站在历史正确的一边<br>伊朗常驻联合国代表伊拉瓦尼7日在安理会表决后的发言中表示，<br>中国和俄罗斯对涉霍尔木兹海峡决议草案行使否决权，阻止安理会被滥用，<br>坚定站在历史正确的一边。</div></div>
+<div class="ft">全球军事动态日报 | 当日实时搜索</div>
+</div>
+<script>
+var v=document.getElementById('v'),p=document.getElementById('p'),vp=document.getElementById('vp'),ld=document.getElementById('ld');
+var isWX=/micromessenger/i.test(navigator.userAgent);
+/* 微信浏览器静音自动播放 */
+if(isWX){
+  v.muted=true;
+  v.play().then(function(){
+    p.style.display='none';
+    function unmuteOnce(){v.muted=false;document.removeEventListener('click',unmuteOnce);document.removeEventListener('touchstart',unmuteOnce)}
+    document.addEventListener('click',unmuteOnce);
+    document.addEventListener('touchstart',unmuteOnce);
+  }).catch(function(){});
+}
+function play(){v.muted=false;v.play().then(function(){p.style.display='none'}).catch(function(){})}
+v.addEventListener('ended',function(){p.style.display='flex';ld.classList.remove('on')});
+v.addEventListener('pause',function(){p.style.display='flex';ld.classList.remove('on')});
+v.addEventListener('playing',function(){p.style.display='none';ld.classList.remove('on')});
+v.addEventListener('waiting',function(){ld.classList.add('on')});
+v.addEventListener('canplay',function(){ld.classList.remove('on')});
+
+/* 滚动后视频自动切换迷你模式 */
+var ticking=false;
+window.addEventListener('scroll',function(){
+  if(!ticking){requestAnimationFrame(function(){
+    if(window.scrollY>200){vp.classList.add('mini')}else{vp.classList.remove('mini')}
+    ticking=false;
+  });ticking=true}
+});
+</script>
+</body>
+</html>
